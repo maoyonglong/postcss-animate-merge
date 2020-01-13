@@ -1,0 +1,2509 @@
+{
+  "conf": [
+    {
+      "name": ".animated.flip",
+      "prop": {
+        "animation-name": "flip"
+      }
+    },
+    {
+      "name": ".animated",
+      "prop": {
+        "animation-duration": "1s",
+        "animation-fill-mode": "both"
+      }
+    },
+    {
+      "name": ".animated.infinite",
+      "prop": {
+        "animation-iteration-count": "infinite"
+      }
+    },
+    {
+      "name": ".animated.delay-1s",
+      "prop": {
+        "animation-delay": "1s"
+      }
+    },
+    {
+      "name": ".animated.delay-2s",
+      "prop": {
+        "animation-delay": "2s"
+      }
+    },
+    {
+      "name": ".animated.delay-3s",
+      "prop": {
+        "animation-delay": "3s"
+      }
+    },
+    {
+      "name": ".animated.delay-4s",
+      "prop": {
+        "animation-delay": "4s"
+      }
+    },
+    {
+      "name": ".animated.delay-5s",
+      "prop": {
+        "animation-delay": "5s"
+      }
+    },
+    {
+      "name": ".animated.fast",
+      "prop": {
+        "animation-duration": "800ms"
+      }
+    },
+    {
+      "name": ".animated.faster",
+      "prop": {
+        "animation-duration": "500ms"
+      }
+    },
+    {
+      "name": ".animated.slow",
+      "prop": {
+        "animation-duration": "2s"
+      }
+    },
+    {
+      "name": ".animated.slower",
+      "prop": {
+        "animation-duration": "3s"
+      }
+    },
+    {
+      "name": ".animated",
+      "prop": {
+        "animation-duration": "1ms",
+        "animation-iteration-count": "1"
+      }
+    }
+  ],
+  "animate": [
+    {
+      "name": ".bounce",
+      "prop": {
+        "animation-name": "bounce",
+        "transform-origin": "center bottom"
+      }
+    },
+    {
+      "name": ".flash",
+      "prop": {
+        "animation-name": "flash"
+      }
+    },
+    {
+      "name": ".pulse",
+      "prop": {
+        "animation-name": "pulse"
+      }
+    },
+    {
+      "name": ".rubberBand",
+      "prop": {
+        "animation-name": "rubberBand"
+      }
+    },
+    {
+      "name": ".shake",
+      "prop": {
+        "animation-name": "shake"
+      }
+    },
+    {
+      "name": ".headShake",
+      "prop": {
+        "animation-timing-function": "ease-in-out",
+        "animation-name": "headShake"
+      }
+    },
+    {
+      "name": ".swing",
+      "prop": {
+        "transform-origin": "top center",
+        "animation-name": "swing"
+      }
+    },
+    {
+      "name": ".tada",
+      "prop": {
+        "animation-name": "tada"
+      }
+    },
+    {
+      "name": ".wobble",
+      "prop": {
+        "animation-name": "wobble"
+      }
+    },
+    {
+      "name": ".jello",
+      "prop": {
+        "animation-name": "jello",
+        "transform-origin": "center"
+      }
+    },
+    {
+      "name": ".heartBeat",
+      "prop": {
+        "animation-name": "heartBeat",
+        "animation-duration": "1.3s",
+        "animation-timing-function": "ease-in-out"
+      }
+    },
+    {
+      "name": ".bounceIn",
+      "prop": {
+        "animation-duration": "0.75s",
+        "animation-name": "bounceIn"
+      }
+    },
+    {
+      "name": ".bounceInDown",
+      "prop": {
+        "animation-name": "bounceInDown"
+      }
+    },
+    {
+      "name": ".bounceInLeft",
+      "prop": {
+        "animation-name": "bounceInLeft"
+      }
+    },
+    {
+      "name": ".bounceInRight",
+      "prop": {
+        "animation-name": "bounceInRight"
+      }
+    },
+    {
+      "name": ".bounceInUp",
+      "prop": {
+        "animation-name": "bounceInUp"
+      }
+    },
+    {
+      "name": ".bounceOut",
+      "prop": {
+        "animation-duration": "0.75s",
+        "animation-name": "bounceOut"
+      }
+    },
+    {
+      "name": ".bounceOutDown",
+      "prop": {
+        "animation-name": "bounceOutDown"
+      }
+    },
+    {
+      "name": ".bounceOutLeft",
+      "prop": {
+        "animation-name": "bounceOutLeft"
+      }
+    },
+    {
+      "name": ".bounceOutRight",
+      "prop": {
+        "animation-name": "bounceOutRight"
+      }
+    },
+    {
+      "name": ".bounceOutUp",
+      "prop": {
+        "animation-name": "bounceOutUp"
+      }
+    },
+    {
+      "name": ".fadeIn",
+      "prop": {
+        "animation-name": "fadeIn"
+      }
+    },
+    {
+      "name": ".fadeInDown",
+      "prop": {
+        "animation-name": "fadeInDown"
+      }
+    },
+    {
+      "name": ".fadeInDownBig",
+      "prop": {
+        "animation-name": "fadeInDownBig"
+      }
+    },
+    {
+      "name": ".fadeInLeft",
+      "prop": {
+        "animation-name": "fadeInLeft"
+      }
+    },
+    {
+      "name": ".fadeInLeftBig",
+      "prop": {
+        "animation-name": "fadeInLeftBig"
+      }
+    },
+    {
+      "name": ".fadeInRight",
+      "prop": {
+        "animation-name": "fadeInRight"
+      }
+    },
+    {
+      "name": ".fadeInRightBig",
+      "prop": {
+        "animation-name": "fadeInRightBig"
+      }
+    },
+    {
+      "name": ".fadeInUp",
+      "prop": {
+        "animation-name": "fadeInUp"
+      }
+    },
+    {
+      "name": ".fadeInUpBig",
+      "prop": {
+        "animation-name": "fadeInUpBig"
+      }
+    },
+    {
+      "name": ".fadeOut",
+      "prop": {
+        "animation-name": "fadeOut"
+      }
+    },
+    {
+      "name": ".fadeOutDown",
+      "prop": {
+        "animation-name": "fadeOutDown"
+      }
+    },
+    {
+      "name": ".fadeOutDownBig",
+      "prop": {
+        "animation-name": "fadeOutDownBig"
+      }
+    },
+    {
+      "name": ".fadeOutLeft",
+      "prop": {
+        "animation-name": "fadeOutLeft"
+      }
+    },
+    {
+      "name": ".fadeOutLeftBig",
+      "prop": {
+        "animation-name": "fadeOutLeftBig"
+      }
+    },
+    {
+      "name": ".fadeOutRight",
+      "prop": {
+        "animation-name": "fadeOutRight"
+      }
+    },
+    {
+      "name": ".fadeOutRightBig",
+      "prop": {
+        "animation-name": "fadeOutRightBig"
+      }
+    },
+    {
+      "name": ".fadeOutUp",
+      "prop": {
+        "animation-name": "fadeOutUp"
+      }
+    },
+    {
+      "name": ".fadeOutUpBig",
+      "prop": {
+        "animation-name": "fadeOutUpBig"
+      }
+    },
+    {
+      "name": ".flipInX",
+      "prop": {
+        "backface-visibility": "visible",
+        "animation-name": "flipInX"
+      }
+    },
+    {
+      "name": ".flipInY",
+      "prop": {
+        "backface-visibility": "visible",
+        "animation-name": "flipInY"
+      }
+    },
+    {
+      "name": ".flipOutX",
+      "prop": {
+        "animation-duration": "0.75s",
+        "animation-name": "flipOutX",
+        "backface-visibility": "visible"
+      }
+    },
+    {
+      "name": ".flipOutY",
+      "prop": {
+        "animation-duration": "0.75s",
+        "backface-visibility": "visible",
+        "animation-name": "flipOutY"
+      }
+    },
+    {
+      "name": ".lightSpeedIn",
+      "prop": {
+        "animation-name": "lightSpeedIn",
+        "animation-timing-function": "ease-out"
+      }
+    },
+    {
+      "name": ".lightSpeedOut",
+      "prop": {
+        "animation-name": "lightSpeedOut",
+        "animation-timing-function": "ease-in"
+      }
+    },
+    {
+      "name": ".rotateIn",
+      "prop": {
+        "animation-name": "rotateIn"
+      }
+    },
+    {
+      "name": ".rotateInDownLeft",
+      "prop": {
+        "animation-name": "rotateInDownLeft"
+      }
+    },
+    {
+      "name": ".rotateInDownRight",
+      "prop": {
+        "animation-name": "rotateInDownRight"
+      }
+    },
+    {
+      "name": ".rotateInUpLeft",
+      "prop": {
+        "animation-name": "rotateInUpLeft"
+      }
+    },
+    {
+      "name": ".rotateInUpRight",
+      "prop": {
+        "animation-name": "rotateInUpRight"
+      }
+    },
+    {
+      "name": ".rotateOut",
+      "prop": {
+        "animation-name": "rotateOut"
+      }
+    },
+    {
+      "name": ".rotateOutDownLeft",
+      "prop": {
+        "animation-name": "rotateOutDownLeft"
+      }
+    },
+    {
+      "name": ".rotateOutDownRight",
+      "prop": {
+        "animation-name": "rotateOutDownRight"
+      }
+    },
+    {
+      "name": ".rotateOutUpLeft",
+      "prop": {
+        "animation-name": "rotateOutUpLeft"
+      }
+    },
+    {
+      "name": ".rotateOutUpRight",
+      "prop": {
+        "animation-name": "rotateOutUpRight"
+      }
+    },
+    {
+      "name": ".hinge",
+      "prop": {
+        "animation-duration": "2s",
+        "animation-name": "hinge"
+      }
+    },
+    {
+      "name": ".jackInTheBox",
+      "prop": {
+        "animation-name": "jackInTheBox"
+      }
+    },
+    {
+      "name": ".rollIn",
+      "prop": {
+        "animation-name": "rollIn"
+      }
+    },
+    {
+      "name": ".rollOut",
+      "prop": {
+        "animation-name": "rollOut"
+      }
+    },
+    {
+      "name": ".zoomIn",
+      "prop": {
+        "animation-name": "zoomIn"
+      }
+    },
+    {
+      "name": ".zoomInDown",
+      "prop": {
+        "animation-name": "zoomInDown"
+      }
+    },
+    {
+      "name": ".zoomInLeft",
+      "prop": {
+        "animation-name": "zoomInLeft"
+      }
+    },
+    {
+      "name": ".zoomInRight",
+      "prop": {
+        "animation-name": "zoomInRight"
+      }
+    },
+    {
+      "name": ".zoomInUp",
+      "prop": {
+        "animation-name": "zoomInUp"
+      }
+    },
+    {
+      "name": ".zoomOut",
+      "prop": {
+        "animation-name": "zoomOut"
+      }
+    },
+    {
+      "name": ".zoomOutDown",
+      "prop": {
+        "animation-name": "zoomOutDown"
+      }
+    },
+    {
+      "name": ".zoomOutLeft",
+      "prop": {
+        "animation-name": "zoomOutLeft"
+      }
+    },
+    {
+      "name": ".zoomOutRight",
+      "prop": {
+        "animation-name": "zoomOutRight"
+      }
+    },
+    {
+      "name": ".zoomOutUp",
+      "prop": {
+        "animation-name": "zoomOutUp"
+      }
+    },
+    {
+      "name": ".slideInDown",
+      "prop": {
+        "animation-name": "slideInDown"
+      }
+    },
+    {
+      "name": ".slideInLeft",
+      "prop": {
+        "animation-name": "slideInLeft"
+      }
+    },
+    {
+      "name": ".slideInRight",
+      "prop": {
+        "animation-name": "slideInRight"
+      }
+    },
+    {
+      "name": ".slideInUp",
+      "prop": {
+        "animation-name": "slideInUp"
+      }
+    },
+    {
+      "name": ".slideOutDown",
+      "prop": {
+        "animation-name": "slideOutDown"
+      }
+    },
+    {
+      "name": ".slideOutLeft",
+      "prop": {
+        "animation-name": "slideOutLeft"
+      }
+    },
+    {
+      "name": ".slideOutRight",
+      "prop": {
+        "animation-name": "slideOutRight"
+      }
+    },
+    {
+      "name": ".slideOutUp",
+      "prop": {
+        "animation-name": "slideOutUp"
+      }
+    },
+    {
+      "name": ".newAnimate",
+      "prop": {
+        "animation-name": "bounce, bounce, slideUp, bounce",
+        "animation-duration": "1s, 1s, 1s, 1s",
+        "animation-delay": "0ms, 1000ms, 1000ms, 2000ms"
+      }
+    }
+  ],
+  "keyframes": [
+    {
+      "name": "bounce",
+      "nodes": [
+        {
+          "name": "from,\n  20%,\n  53%,\n  80%,\n  to",
+          "prop": {
+            "animation-timing-function": "cubic-bezier(0.215, 0.61, 0.355, 1)",
+            "transform": "translate3d(0, 0, 0)"
+          }
+        },
+        {
+          "name": "40%,\n  43%",
+          "prop": {
+            "animation-timing-function": "cubic-bezier(0.755, 0.05, 0.855, 0.06)",
+            "transform": "translate3d(0, -30px, 0)"
+          }
+        },
+        {
+          "name": "70%",
+          "prop": {
+            "animation-timing-function": "cubic-bezier(0.755, 0.05, 0.855, 0.06)",
+            "transform": "translate3d(0, -15px, 0)"
+          }
+        },
+        {
+          "name": "90%",
+          "prop": {
+            "transform": "translate3d(0, -4px, 0)"
+          }
+        }
+      ]
+    },
+    {
+      "name": "flash",
+      "nodes": [
+        {
+          "name": "from,\n  50%,\n  to",
+          "prop": {
+            "opacity": "1"
+          }
+        },
+        {
+          "name": "25%,\n  75%",
+          "prop": {
+            "opacity": "0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "pulse",
+      "nodes": [
+        {
+          "name": "from",
+          "prop": {
+            "transform": "scale3d(1, 1, 1)"
+          }
+        },
+        {
+          "name": "50%",
+          "prop": {
+            "transform": "scale3d(1.05, 1.05, 1.05)"
+          }
+        },
+        {
+          "name": "to",
+          "prop": {
+            "transform": "scale3d(1, 1, 1)"
+          }
+        }
+      ]
+    },
+    {
+      "name": "rubberBand",
+      "nodes": [
+        {
+          "name": "from",
+          "prop": {
+            "transform": "scale3d(1, 1, 1)"
+          }
+        },
+        {
+          "name": "30%",
+          "prop": {
+            "transform": "scale3d(1.25, 0.75, 1)"
+          }
+        },
+        {
+          "name": "40%",
+          "prop": {
+            "transform": "scale3d(0.75, 1.25, 1)"
+          }
+        },
+        {
+          "name": "50%",
+          "prop": {
+            "transform": "scale3d(1.15, 0.85, 1)"
+          }
+        },
+        {
+          "name": "65%",
+          "prop": {
+            "transform": "scale3d(0.95, 1.05, 1)"
+          }
+        },
+        {
+          "name": "75%",
+          "prop": {
+            "transform": "scale3d(1.05, 0.95, 1)"
+          }
+        },
+        {
+          "name": "to",
+          "prop": {
+            "transform": "scale3d(1, 1, 1)"
+          }
+        }
+      ]
+    },
+    {
+      "name": "shake",
+      "nodes": [
+        {
+          "name": "from,\n  to",
+          "prop": {
+            "transform": "translate3d(0, 0, 0)"
+          }
+        },
+        {
+          "name": "10%,\n  30%,\n  50%,\n  70%,\n  90%",
+          "prop": {
+            "transform": "translate3d(-10px, 0, 0)"
+          }
+        },
+        {
+          "name": "20%,\n  40%,\n  60%,\n  80%",
+          "prop": {
+            "transform": "translate3d(10px, 0, 0)"
+          }
+        }
+      ]
+    },
+    {
+      "name": "headShake",
+      "nodes": [
+        {
+          "name": "0%",
+          "prop": {
+            "transform": "translateX(0)"
+          }
+        },
+        {
+          "name": "6.5%",
+          "prop": {
+            "transform": "translateX(-6px) rotateY(-9deg)"
+          }
+        },
+        {
+          "name": "18.5%",
+          "prop": {
+            "transform": "translateX(5px) rotateY(7deg)"
+          }
+        },
+        {
+          "name": "31.5%",
+          "prop": {
+            "transform": "translateX(-3px) rotateY(-5deg)"
+          }
+        },
+        {
+          "name": "43.5%",
+          "prop": {
+            "transform": "translateX(2px) rotateY(3deg)"
+          }
+        },
+        {
+          "name": "50%",
+          "prop": {
+            "transform": "translateX(0)"
+          }
+        }
+      ]
+    },
+    {
+      "name": "swing",
+      "nodes": [
+        {
+          "name": "20%",
+          "prop": {
+            "transform": "rotate3d(0, 0, 1, 15deg)"
+          }
+        },
+        {
+          "name": "40%",
+          "prop": {
+            "transform": "rotate3d(0, 0, 1, -10deg)"
+          }
+        },
+        {
+          "name": "60%",
+          "prop": {
+            "transform": "rotate3d(0, 0, 1, 5deg)"
+          }
+        },
+        {
+          "name": "80%",
+          "prop": {
+            "transform": "rotate3d(0, 0, 1, -5deg)"
+          }
+        },
+        {
+          "name": "to",
+          "prop": {
+            "transform": "rotate3d(0, 0, 1, 0deg)"
+          }
+        }
+      ]
+    },
+    {
+      "name": "tada",
+      "nodes": [
+        {
+          "name": "from",
+          "prop": {
+            "transform": "scale3d(1, 1, 1)"
+          }
+        },
+        {
+          "name": "10%,\n  20%",
+          "prop": {
+            "transform": "scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg)"
+          }
+        },
+        {
+          "name": "30%,\n  50%,\n  70%,\n  90%",
+          "prop": {
+            "transform": "scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg)"
+          }
+        },
+        {
+          "name": "40%,\n  60%,\n  80%",
+          "prop": {
+            "transform": "scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg)"
+          }
+        },
+        {
+          "name": "to",
+          "prop": {
+            "transform": "scale3d(1, 1, 1)"
+          }
+        }
+      ]
+    },
+    {
+      "name": "wobble",
+      "nodes": [
+        {
+          "name": "from",
+          "prop": {
+            "transform": "translate3d(0, 0, 0)"
+          }
+        },
+        {
+          "name": "15%",
+          "prop": {
+            "transform": "translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg)"
+          }
+        },
+        {
+          "name": "30%",
+          "prop": {
+            "transform": "translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg)"
+          }
+        },
+        {
+          "name": "45%",
+          "prop": {
+            "transform": "translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg)"
+          }
+        },
+        {
+          "name": "60%",
+          "prop": {
+            "transform": "translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg)"
+          }
+        },
+        {
+          "name": "75%",
+          "prop": {
+            "transform": "translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg)"
+          }
+        },
+        {
+          "name": "to",
+          "prop": {
+            "transform": "translate3d(0, 0, 0)"
+          }
+        }
+      ]
+    },
+    {
+      "name": "jello",
+      "nodes": [
+        {
+          "name": "from,\n  11.1%,\n  to",
+          "prop": {
+            "transform": "translate3d(0, 0, 0)"
+          }
+        },
+        {
+          "name": "22.2%",
+          "prop": {
+            "transform": "skewX(-12.5deg) skewY(-12.5deg)"
+          }
+        },
+        {
+          "name": "33.3%",
+          "prop": {
+            "transform": "skewX(6.25deg) skewY(6.25deg)"
+          }
+        },
+        {
+          "name": "44.4%",
+          "prop": {
+            "transform": "skewX(-3.125deg) skewY(-3.125deg)"
+          }
+        },
+        {
+          "name": "55.5%",
+          "prop": {
+            "transform": "skewX(1.5625deg) skewY(1.5625deg)"
+          }
+        },
+        {
+          "name": "66.6%",
+          "prop": {
+            "transform": "skewX(-0.78125deg) skewY(-0.78125deg)"
+          }
+        },
+        {
+          "name": "77.7%",
+          "prop": {
+            "transform": "skewX(0.390625deg) skewY(0.390625deg)"
+          }
+        },
+        {
+          "name": "88.8%",
+          "prop": {
+            "transform": "skewX(-0.1953125deg) skewY(-0.1953125deg)"
+          }
+        }
+      ]
+    },
+    {
+      "name": "heartBeat",
+      "nodes": [
+        {
+          "name": "0%",
+          "prop": {
+            "transform": "scale(1)"
+          }
+        },
+        {
+          "name": "14%",
+          "prop": {
+            "transform": "scale(1.3)"
+          }
+        },
+        {
+          "name": "28%",
+          "prop": {
+            "transform": "scale(1)"
+          }
+        },
+        {
+          "name": "42%",
+          "prop": {
+            "transform": "scale(1.3)"
+          }
+        },
+        {
+          "name": "70%",
+          "prop": {
+            "transform": "scale(1)"
+          }
+        }
+      ]
+    },
+    {
+      "name": "bounceIn",
+      "nodes": [
+        {
+          "name": "from,\n  20%,\n  40%,\n  60%,\n  80%,\n  to",
+          "prop": {
+            "animation-timing-function": "cubic-bezier(0.215, 0.61, 0.355, 1)"
+          }
+        },
+        {
+          "name": "0%",
+          "prop": {
+            "opacity": "0",
+            "transform": "scale3d(0.3, 0.3, 0.3)"
+          }
+        },
+        {
+          "name": "20%",
+          "prop": {
+            "transform": "scale3d(1.1, 1.1, 1.1)"
+          }
+        },
+        {
+          "name": "40%",
+          "prop": {
+            "transform": "scale3d(0.9, 0.9, 0.9)"
+          }
+        },
+        {
+          "name": "60%",
+          "prop": {
+            "opacity": "1",
+            "transform": "scale3d(1.03, 1.03, 1.03)"
+          }
+        },
+        {
+          "name": "80%",
+          "prop": {
+            "transform": "scale3d(0.97, 0.97, 0.97)"
+          }
+        },
+        {
+          "name": "to",
+          "prop": {
+            "opacity": "1",
+            "transform": "scale3d(1, 1, 1)"
+          }
+        }
+      ]
+    },
+    {
+      "name": "bounceInDown",
+      "nodes": [
+        {
+          "name": "from,\n  60%,\n  75%,\n  90%,\n  to",
+          "prop": {
+            "animation-timing-function": "cubic-bezier(0.215, 0.61, 0.355, 1)"
+          }
+        },
+        {
+          "name": "0%",
+          "prop": {
+            "opacity": "0",
+            "transform": "translate3d(0, -3000px, 0)"
+          }
+        },
+        {
+          "name": "60%",
+          "prop": {
+            "opacity": "1",
+            "transform": "translate3d(0, 25px, 0)"
+          }
+        },
+        {
+          "name": "75%",
+          "prop": {
+            "transform": "translate3d(0, -10px, 0)"
+          }
+        },
+        {
+          "name": "90%",
+          "prop": {
+            "transform": "translate3d(0, 5px, 0)"
+          }
+        },
+        {
+          "name": "to",
+          "prop": {
+            "transform": "translate3d(0, 0, 0)"
+          }
+        }
+      ]
+    },
+    {
+      "name": "bounceInLeft",
+      "nodes": [
+        {
+          "name": "from,\n  60%,\n  75%,\n  90%,\n  to",
+          "prop": {
+            "animation-timing-function": "cubic-bezier(0.215, 0.61, 0.355, 1)"
+          }
+        },
+        {
+          "name": "0%",
+          "prop": {
+            "opacity": "0",
+            "transform": "translate3d(-3000px, 0, 0)"
+          }
+        },
+        {
+          "name": "60%",
+          "prop": {
+            "opacity": "1",
+            "transform": "translate3d(25px, 0, 0)"
+          }
+        },
+        {
+          "name": "75%",
+          "prop": {
+            "transform": "translate3d(-10px, 0, 0)"
+          }
+        },
+        {
+          "name": "90%",
+          "prop": {
+            "transform": "translate3d(5px, 0, 0)"
+          }
+        },
+        {
+          "name": "to",
+          "prop": {
+            "transform": "translate3d(0, 0, 0)"
+          }
+        }
+      ]
+    },
+    {
+      "name": "bounceInRight",
+      "nodes": [
+        {
+          "name": "from,\n  60%,\n  75%,\n  90%,\n  to",
+          "prop": {
+            "animation-timing-function": "cubic-bezier(0.215, 0.61, 0.355, 1)"
+          }
+        },
+        {
+          "name": "from",
+          "prop": {
+            "opacity": "0",
+            "transform": "translate3d(3000px, 0, 0)"
+          }
+        },
+        {
+          "name": "60%",
+          "prop": {
+            "opacity": "1",
+            "transform": "translate3d(-25px, 0, 0)"
+          }
+        },
+        {
+          "name": "75%",
+          "prop": {
+            "transform": "translate3d(10px, 0, 0)"
+          }
+        },
+        {
+          "name": "90%",
+          "prop": {
+            "transform": "translate3d(-5px, 0, 0)"
+          }
+        },
+        {
+          "name": "to",
+          "prop": {
+            "transform": "translate3d(0, 0, 0)"
+          }
+        }
+      ]
+    },
+    {
+      "name": "bounceInUp",
+      "nodes": [
+        {
+          "name": "from,\n  60%,\n  75%,\n  90%,\n  to",
+          "prop": {
+            "animation-timing-function": "cubic-bezier(0.215, 0.61, 0.355, 1)"
+          }
+        },
+        {
+          "name": "from",
+          "prop": {
+            "opacity": "0",
+            "transform": "translate3d(0, 3000px, 0)"
+          }
+        },
+        {
+          "name": "60%",
+          "prop": {
+            "opacity": "1",
+            "transform": "translate3d(0, -20px, 0)"
+          }
+        },
+        {
+          "name": "75%",
+          "prop": {
+            "transform": "translate3d(0, 10px, 0)"
+          }
+        },
+        {
+          "name": "90%",
+          "prop": {
+            "transform": "translate3d(0, -5px, 0)"
+          }
+        },
+        {
+          "name": "to",
+          "prop": {
+            "transform": "translate3d(0, 0, 0)"
+          }
+        }
+      ]
+    },
+    {
+      "name": "bounceOut",
+      "nodes": [
+        {
+          "name": "20%",
+          "prop": {
+            "transform": "scale3d(0.9, 0.9, 0.9)"
+          }
+        },
+        {
+          "name": "50%,\n  55%",
+          "prop": {
+            "opacity": "1",
+            "transform": "scale3d(1.1, 1.1, 1.1)"
+          }
+        },
+        {
+          "name": "to",
+          "prop": {
+            "opacity": "0",
+            "transform": "scale3d(0.3, 0.3, 0.3)"
+          }
+        }
+      ]
+    },
+    {
+      "name": "bounceOutDown",
+      "nodes": [
+        {
+          "name": "20%",
+          "prop": {
+            "transform": "translate3d(0, 10px, 0)"
+          }
+        },
+        {
+          "name": "40%,\n  45%",
+          "prop": {
+            "opacity": "1",
+            "transform": "translate3d(0, -20px, 0)"
+          }
+        },
+        {
+          "name": "to",
+          "prop": {
+            "opacity": "0",
+            "transform": "translate3d(0, 2000px, 0)"
+          }
+        }
+      ]
+    },
+    {
+      "name": "bounceOutLeft",
+      "nodes": [
+        {
+          "name": "20%",
+          "prop": {
+            "opacity": "1",
+            "transform": "translate3d(20px, 0, 0)"
+          }
+        },
+        {
+          "name": "to",
+          "prop": {
+            "opacity": "0",
+            "transform": "translate3d(-2000px, 0, 0)"
+          }
+        }
+      ]
+    },
+    {
+      "name": "bounceOutRight",
+      "nodes": [
+        {
+          "name": "20%",
+          "prop": {
+            "opacity": "1",
+            "transform": "translate3d(-20px, 0, 0)"
+          }
+        },
+        {
+          "name": "to",
+          "prop": {
+            "opacity": "0",
+            "transform": "translate3d(2000px, 0, 0)"
+          }
+        }
+      ]
+    },
+    {
+      "name": "bounceOutUp",
+      "nodes": [
+        {
+          "name": "20%",
+          "prop": {
+            "transform": "translate3d(0, -10px, 0)"
+          }
+        },
+        {
+          "name": "40%,\n  45%",
+          "prop": {
+            "opacity": "1",
+            "transform": "translate3d(0, 20px, 0)"
+          }
+        },
+        {
+          "name": "to",
+          "prop": {
+            "opacity": "0",
+            "transform": "translate3d(0, -2000px, 0)"
+          }
+        }
+      ]
+    },
+    {
+      "name": "fadeIn",
+      "nodes": [
+        {
+          "name": "from",
+          "prop": {
+            "opacity": "0"
+          }
+        },
+        {
+          "name": "to",
+          "prop": {
+            "opacity": "1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "fadeInDown",
+      "nodes": [
+        {
+          "name": "from",
+          "prop": {
+            "opacity": "0",
+            "transform": "translate3d(0, -100%, 0)"
+          }
+        },
+        {
+          "name": "to",
+          "prop": {
+            "opacity": "1",
+            "transform": "translate3d(0, 0, 0)"
+          }
+        }
+      ]
+    },
+    {
+      "name": "fadeInDownBig",
+      "nodes": [
+        {
+          "name": "from",
+          "prop": {
+            "opacity": "0",
+            "transform": "translate3d(0, -2000px, 0)"
+          }
+        },
+        {
+          "name": "to",
+          "prop": {
+            "opacity": "1",
+            "transform": "translate3d(0, 0, 0)"
+          }
+        }
+      ]
+    },
+    {
+      "name": "fadeInLeft",
+      "nodes": [
+        {
+          "name": "from",
+          "prop": {
+            "opacity": "0",
+            "transform": "translate3d(-100%, 0, 0)"
+          }
+        },
+        {
+          "name": "to",
+          "prop": {
+            "opacity": "1",
+            "transform": "translate3d(0, 0, 0)"
+          }
+        }
+      ]
+    },
+    {
+      "name": "fadeInLeftBig",
+      "nodes": [
+        {
+          "name": "from",
+          "prop": {
+            "opacity": "0",
+            "transform": "translate3d(-2000px, 0, 0)"
+          }
+        },
+        {
+          "name": "to",
+          "prop": {
+            "opacity": "1",
+            "transform": "translate3d(0, 0, 0)"
+          }
+        }
+      ]
+    },
+    {
+      "name": "fadeInRight",
+      "nodes": [
+        {
+          "name": "from",
+          "prop": {
+            "opacity": "0",
+            "transform": "translate3d(100%, 0, 0)"
+          }
+        },
+        {
+          "name": "to",
+          "prop": {
+            "opacity": "1",
+            "transform": "translate3d(0, 0, 0)"
+          }
+        }
+      ]
+    },
+    {
+      "name": "fadeInRightBig",
+      "nodes": [
+        {
+          "name": "from",
+          "prop": {
+            "opacity": "0",
+            "transform": "translate3d(2000px, 0, 0)"
+          }
+        },
+        {
+          "name": "to",
+          "prop": {
+            "opacity": "1",
+            "transform": "translate3d(0, 0, 0)"
+          }
+        }
+      ]
+    },
+    {
+      "name": "fadeInUp",
+      "nodes": [
+        {
+          "name": "from",
+          "prop": {
+            "opacity": "0",
+            "transform": "translate3d(0, 100%, 0)"
+          }
+        },
+        {
+          "name": "to",
+          "prop": {
+            "opacity": "1",
+            "transform": "translate3d(0, 0, 0)"
+          }
+        }
+      ]
+    },
+    {
+      "name": "fadeInUpBig",
+      "nodes": [
+        {
+          "name": "from",
+          "prop": {
+            "opacity": "0",
+            "transform": "translate3d(0, 2000px, 0)"
+          }
+        },
+        {
+          "name": "to",
+          "prop": {
+            "opacity": "1",
+            "transform": "translate3d(0, 0, 0)"
+          }
+        }
+      ]
+    },
+    {
+      "name": "fadeOut",
+      "nodes": [
+        {
+          "name": "from",
+          "prop": {
+            "opacity": "1"
+          }
+        },
+        {
+          "name": "to",
+          "prop": {
+            "opacity": "0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "fadeOutDown",
+      "nodes": [
+        {
+          "name": "from",
+          "prop": {
+            "opacity": "1"
+          }
+        },
+        {
+          "name": "to",
+          "prop": {
+            "opacity": "0",
+            "transform": "translate3d(0, 100%, 0)"
+          }
+        }
+      ]
+    },
+    {
+      "name": "fadeOutDownBig",
+      "nodes": [
+        {
+          "name": "from",
+          "prop": {
+            "opacity": "1"
+          }
+        },
+        {
+          "name": "to",
+          "prop": {
+            "opacity": "0",
+            "transform": "translate3d(0, 2000px, 0)"
+          }
+        }
+      ]
+    },
+    {
+      "name": "fadeOutLeft",
+      "nodes": [
+        {
+          "name": "from",
+          "prop": {
+            "opacity": "1"
+          }
+        },
+        {
+          "name": "to",
+          "prop": {
+            "opacity": "0",
+            "transform": "translate3d(-100%, 0, 0)"
+          }
+        }
+      ]
+    },
+    {
+      "name": "fadeOutLeftBig",
+      "nodes": [
+        {
+          "name": "from",
+          "prop": {
+            "opacity": "1"
+          }
+        },
+        {
+          "name": "to",
+          "prop": {
+            "opacity": "0",
+            "transform": "translate3d(-2000px, 0, 0)"
+          }
+        }
+      ]
+    },
+    {
+      "name": "fadeOutRight",
+      "nodes": [
+        {
+          "name": "from",
+          "prop": {
+            "opacity": "1"
+          }
+        },
+        {
+          "name": "to",
+          "prop": {
+            "opacity": "0",
+            "transform": "translate3d(100%, 0, 0)"
+          }
+        }
+      ]
+    },
+    {
+      "name": "fadeOutRightBig",
+      "nodes": [
+        {
+          "name": "from",
+          "prop": {
+            "opacity": "1"
+          }
+        },
+        {
+          "name": "to",
+          "prop": {
+            "opacity": "0",
+            "transform": "translate3d(2000px, 0, 0)"
+          }
+        }
+      ]
+    },
+    {
+      "name": "fadeOutUp",
+      "nodes": [
+        {
+          "name": "from",
+          "prop": {
+            "opacity": "1"
+          }
+        },
+        {
+          "name": "to",
+          "prop": {
+            "opacity": "0",
+            "transform": "translate3d(0, -100%, 0)"
+          }
+        }
+      ]
+    },
+    {
+      "name": "fadeOutUpBig",
+      "nodes": [
+        {
+          "name": "from",
+          "prop": {
+            "opacity": "1"
+          }
+        },
+        {
+          "name": "to",
+          "prop": {
+            "opacity": "0",
+            "transform": "translate3d(0, -2000px, 0)"
+          }
+        }
+      ]
+    },
+    {
+      "name": "flip",
+      "nodes": [
+        {
+          "name": "from",
+          "prop": {
+            "transform": "perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 0) rotate3d(0, 1, 0, -360deg)",
+            "animation-timing-function": "ease-out"
+          }
+        },
+        {
+          "name": "40%",
+          "prop": {
+            "transform": "perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 150px)\n      rotate3d(0, 1, 0, -190deg)",
+            "animation-timing-function": "ease-out"
+          }
+        },
+        {
+          "name": "50%",
+          "prop": {
+            "transform": "perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 150px)\n      rotate3d(0, 1, 0, -170deg)",
+            "animation-timing-function": "ease-in"
+          }
+        },
+        {
+          "name": "80%",
+          "prop": {
+            "transform": "perspective(400px) scale3d(0.95, 0.95, 0.95) translate3d(0, 0, 0)\n      rotate3d(0, 1, 0, 0deg)",
+            "animation-timing-function": "ease-in"
+          }
+        },
+        {
+          "name": "to",
+          "prop": {
+            "transform": "perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 0) rotate3d(0, 1, 0, 0deg)",
+            "animation-timing-function": "ease-in"
+          }
+        }
+      ]
+    },
+    {
+      "name": "flipInX",
+      "nodes": [
+        {
+          "name": "from",
+          "prop": {
+            "transform": "perspective(400px) rotate3d(1, 0, 0, 90deg)",
+            "animation-timing-function": "ease-in",
+            "opacity": "0"
+          }
+        },
+        {
+          "name": "40%",
+          "prop": {
+            "transform": "perspective(400px) rotate3d(1, 0, 0, -20deg)",
+            "animation-timing-function": "ease-in"
+          }
+        },
+        {
+          "name": "60%",
+          "prop": {
+            "transform": "perspective(400px) rotate3d(1, 0, 0, 10deg)",
+            "opacity": "1"
+          }
+        },
+        {
+          "name": "80%",
+          "prop": {
+            "transform": "perspective(400px) rotate3d(1, 0, 0, -5deg)"
+          }
+        },
+        {
+          "name": "to",
+          "prop": {
+            "transform": "perspective(400px)"
+          }
+        }
+      ]
+    },
+    {
+      "name": "flipInY",
+      "nodes": [
+        {
+          "name": "from",
+          "prop": {
+            "transform": "perspective(400px) rotate3d(0, 1, 0, 90deg)",
+            "animation-timing-function": "ease-in",
+            "opacity": "0"
+          }
+        },
+        {
+          "name": "40%",
+          "prop": {
+            "transform": "perspective(400px) rotate3d(0, 1, 0, -20deg)",
+            "animation-timing-function": "ease-in"
+          }
+        },
+        {
+          "name": "60%",
+          "prop": {
+            "transform": "perspective(400px) rotate3d(0, 1, 0, 10deg)",
+            "opacity": "1"
+          }
+        },
+        {
+          "name": "80%",
+          "prop": {
+            "transform": "perspective(400px) rotate3d(0, 1, 0, -5deg)"
+          }
+        },
+        {
+          "name": "to",
+          "prop": {
+            "transform": "perspective(400px)"
+          }
+        }
+      ]
+    },
+    {
+      "name": "flipOutX",
+      "nodes": [
+        {
+          "name": "from",
+          "prop": {
+            "transform": "perspective(400px)"
+          }
+        },
+        {
+          "name": "30%",
+          "prop": {
+            "transform": "perspective(400px) rotate3d(1, 0, 0, -20deg)",
+            "opacity": "1"
+          }
+        },
+        {
+          "name": "to",
+          "prop": {
+            "transform": "perspective(400px) rotate3d(1, 0, 0, 90deg)",
+            "opacity": "0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "flipOutY",
+      "nodes": [
+        {
+          "name": "from",
+          "prop": {
+            "transform": "perspective(400px)"
+          }
+        },
+        {
+          "name": "30%",
+          "prop": {
+            "transform": "perspective(400px) rotate3d(0, 1, 0, -15deg)",
+            "opacity": "1"
+          }
+        },
+        {
+          "name": "to",
+          "prop": {
+            "transform": "perspective(400px) rotate3d(0, 1, 0, 90deg)",
+            "opacity": "0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "lightSpeedIn",
+      "nodes": [
+        {
+          "name": "from",
+          "prop": {
+            "transform": "translate3d(100%, 0, 0) skewX(-30deg)",
+            "opacity": "0"
+          }
+        },
+        {
+          "name": "60%",
+          "prop": {
+            "transform": "skewX(20deg)",
+            "opacity": "1"
+          }
+        },
+        {
+          "name": "80%",
+          "prop": {
+            "transform": "skewX(-5deg)"
+          }
+        },
+        {
+          "name": "to",
+          "prop": {
+            "transform": "translate3d(0, 0, 0)"
+          }
+        }
+      ]
+    },
+    {
+      "name": "lightSpeedOut",
+      "nodes": [
+        {
+          "name": "from",
+          "prop": {
+            "opacity": "1"
+          }
+        },
+        {
+          "name": "to",
+          "prop": {
+            "transform": "translate3d(100%, 0, 0) skewX(30deg)",
+            "opacity": "0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "rotateIn",
+      "nodes": [
+        {
+          "name": "from",
+          "prop": {
+            "transform-origin": "center",
+            "transform": "rotate3d(0, 0, 1, -200deg)",
+            "opacity": "0"
+          }
+        },
+        {
+          "name": "to",
+          "prop": {
+            "transform-origin": "center",
+            "transform": "translate3d(0, 0, 0)",
+            "opacity": "1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "rotateInDownLeft",
+      "nodes": [
+        {
+          "name": "from",
+          "prop": {
+            "transform-origin": "left bottom",
+            "transform": "rotate3d(0, 0, 1, -45deg)",
+            "opacity": "0"
+          }
+        },
+        {
+          "name": "to",
+          "prop": {
+            "transform-origin": "left bottom",
+            "transform": "translate3d(0, 0, 0)",
+            "opacity": "1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "rotateInDownRight",
+      "nodes": [
+        {
+          "name": "from",
+          "prop": {
+            "transform-origin": "right bottom",
+            "transform": "rotate3d(0, 0, 1, 45deg)",
+            "opacity": "0"
+          }
+        },
+        {
+          "name": "to",
+          "prop": {
+            "transform-origin": "right bottom",
+            "transform": "translate3d(0, 0, 0)",
+            "opacity": "1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "rotateInUpLeft",
+      "nodes": [
+        {
+          "name": "from",
+          "prop": {
+            "transform-origin": "left bottom",
+            "transform": "rotate3d(0, 0, 1, 45deg)",
+            "opacity": "0"
+          }
+        },
+        {
+          "name": "to",
+          "prop": {
+            "transform-origin": "left bottom",
+            "transform": "translate3d(0, 0, 0)",
+            "opacity": "1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "rotateInUpRight",
+      "nodes": [
+        {
+          "name": "from",
+          "prop": {
+            "transform-origin": "right bottom",
+            "transform": "rotate3d(0, 0, 1, -90deg)",
+            "opacity": "0"
+          }
+        },
+        {
+          "name": "to",
+          "prop": {
+            "transform-origin": "right bottom",
+            "transform": "translate3d(0, 0, 0)",
+            "opacity": "1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "rotateOut",
+      "nodes": [
+        {
+          "name": "from",
+          "prop": {
+            "transform-origin": "center",
+            "opacity": "1"
+          }
+        },
+        {
+          "name": "to",
+          "prop": {
+            "transform-origin": "center",
+            "transform": "rotate3d(0, 0, 1, 200deg)",
+            "opacity": "0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "rotateOutDownLeft",
+      "nodes": [
+        {
+          "name": "from",
+          "prop": {
+            "transform-origin": "left bottom",
+            "opacity": "1"
+          }
+        },
+        {
+          "name": "to",
+          "prop": {
+            "transform-origin": "left bottom",
+            "transform": "rotate3d(0, 0, 1, 45deg)",
+            "opacity": "0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "rotateOutDownRight",
+      "nodes": [
+        {
+          "name": "from",
+          "prop": {
+            "transform-origin": "right bottom",
+            "opacity": "1"
+          }
+        },
+        {
+          "name": "to",
+          "prop": {
+            "transform-origin": "right bottom",
+            "transform": "rotate3d(0, 0, 1, -45deg)",
+            "opacity": "0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "rotateOutUpLeft",
+      "nodes": [
+        {
+          "name": "from",
+          "prop": {
+            "transform-origin": "left bottom",
+            "opacity": "1"
+          }
+        },
+        {
+          "name": "to",
+          "prop": {
+            "transform-origin": "left bottom",
+            "transform": "rotate3d(0, 0, 1, -45deg)",
+            "opacity": "0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "rotateOutUpRight",
+      "nodes": [
+        {
+          "name": "from",
+          "prop": {
+            "transform-origin": "right bottom",
+            "opacity": "1"
+          }
+        },
+        {
+          "name": "to",
+          "prop": {
+            "transform-origin": "right bottom",
+            "transform": "rotate3d(0, 0, 1, 90deg)",
+            "opacity": "0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "hinge",
+      "nodes": [
+        {
+          "name": "0%",
+          "prop": {
+            "transform-origin": "top left",
+            "animation-timing-function": "ease-in-out"
+          }
+        },
+        {
+          "name": "20%,\n  60%",
+          "prop": {
+            "transform": "rotate3d(0, 0, 1, 80deg)",
+            "transform-origin": "top left",
+            "animation-timing-function": "ease-in-out"
+          }
+        },
+        {
+          "name": "40%,\n  80%",
+          "prop": {
+            "transform": "rotate3d(0, 0, 1, 60deg)",
+            "transform-origin": "top left",
+            "animation-timing-function": "ease-in-out",
+            "opacity": "1"
+          }
+        },
+        {
+          "name": "to",
+          "prop": {
+            "transform": "translate3d(0, 700px, 0)",
+            "opacity": "0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "jackInTheBox",
+      "nodes": [
+        {
+          "name": "from",
+          "prop": {
+            "opacity": "0",
+            "transform": "scale(0.1) rotate(30deg)",
+            "transform-origin": "center bottom"
+          }
+        },
+        {
+          "name": "50%",
+          "prop": {
+            "transform": "rotate(-10deg)"
+          }
+        },
+        {
+          "name": "70%",
+          "prop": {
+            "transform": "rotate(3deg)"
+          }
+        },
+        {
+          "name": "to",
+          "prop": {
+            "opacity": "1",
+            "transform": "scale(1)"
+          }
+        }
+      ]
+    },
+    {
+      "name": "rollIn",
+      "nodes": [
+        {
+          "name": "from",
+          "prop": {
+            "opacity": "0",
+            "transform": "translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg)"
+          }
+        },
+        {
+          "name": "to",
+          "prop": {
+            "opacity": "1",
+            "transform": "translate3d(0, 0, 0)"
+          }
+        }
+      ]
+    },
+    {
+      "name": "rollOut",
+      "nodes": [
+        {
+          "name": "from",
+          "prop": {
+            "opacity": "1"
+          }
+        },
+        {
+          "name": "to",
+          "prop": {
+            "opacity": "0",
+            "transform": "translate3d(100%, 0, 0) rotate3d(0, 0, 1, 120deg)"
+          }
+        }
+      ]
+    },
+    {
+      "name": "zoomIn",
+      "nodes": [
+        {
+          "name": "from",
+          "prop": {
+            "opacity": "0",
+            "transform": "scale3d(0.3, 0.3, 0.3)"
+          }
+        },
+        {
+          "name": "50%",
+          "prop": {
+            "opacity": "1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "zoomInDown",
+      "nodes": [
+        {
+          "name": "from",
+          "prop": {
+            "opacity": "0",
+            "transform": "scale3d(0.1, 0.1, 0.1) translate3d(0, -1000px, 0)",
+            "animation-timing-function": "cubic-bezier(0.55, 0.055, 0.675, 0.19)"
+          }
+        },
+        {
+          "name": "60%",
+          "prop": {
+            "opacity": "1",
+            "transform": "scale3d(0.475, 0.475, 0.475) translate3d(0, 60px, 0)",
+            "animation-timing-function": "cubic-bezier(0.175, 0.885, 0.32, 1)"
+          }
+        }
+      ]
+    },
+    {
+      "name": "zoomInLeft",
+      "nodes": [
+        {
+          "name": "from",
+          "prop": {
+            "opacity": "0",
+            "transform": "scale3d(0.1, 0.1, 0.1) translate3d(-1000px, 0, 0)",
+            "animation-timing-function": "cubic-bezier(0.55, 0.055, 0.675, 0.19)"
+          }
+        },
+        {
+          "name": "60%",
+          "prop": {
+            "opacity": "1",
+            "transform": "scale3d(0.475, 0.475, 0.475) translate3d(10px, 0, 0)",
+            "animation-timing-function": "cubic-bezier(0.175, 0.885, 0.32, 1)"
+          }
+        }
+      ]
+    },
+    {
+      "name": "zoomInRight",
+      "nodes": [
+        {
+          "name": "from",
+          "prop": {
+            "opacity": "0",
+            "transform": "scale3d(0.1, 0.1, 0.1) translate3d(1000px, 0, 0)",
+            "animation-timing-function": "cubic-bezier(0.55, 0.055, 0.675, 0.19)"
+          }
+        },
+        {
+          "name": "60%",
+          "prop": {
+            "opacity": "1",
+            "transform": "scale3d(0.475, 0.475, 0.475) translate3d(-10px, 0, 0)",
+            "animation-timing-function": "cubic-bezier(0.175, 0.885, 0.32, 1)"
+          }
+        }
+      ]
+    },
+    {
+      "name": "zoomInUp",
+      "nodes": [
+        {
+          "name": "from",
+          "prop": {
+            "opacity": "0",
+            "transform": "scale3d(0.1, 0.1, 0.1) translate3d(0, 1000px, 0)",
+            "animation-timing-function": "cubic-bezier(0.55, 0.055, 0.675, 0.19)"
+          }
+        },
+        {
+          "name": "60%",
+          "prop": {
+            "opacity": "1",
+            "transform": "scale3d(0.475, 0.475, 0.475) translate3d(0, -60px, 0)",
+            "animation-timing-function": "cubic-bezier(0.175, 0.885, 0.32, 1)"
+          }
+        }
+      ]
+    },
+    {
+      "name": "zoomOut",
+      "nodes": [
+        {
+          "name": "from",
+          "prop": {
+            "opacity": "1"
+          }
+        },
+        {
+          "name": "50%",
+          "prop": {
+            "opacity": "0",
+            "transform": "scale3d(0.3, 0.3, 0.3)"
+          }
+        },
+        {
+          "name": "to",
+          "prop": {
+            "opacity": "0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "zoomOutDown",
+      "nodes": [
+        {
+          "name": "40%",
+          "prop": {
+            "opacity": "1",
+            "transform": "scale3d(0.475, 0.475, 0.475) translate3d(0, -60px, 0)",
+            "animation-timing-function": "cubic-bezier(0.55, 0.055, 0.675, 0.19)"
+          }
+        },
+        {
+          "name": "to",
+          "prop": {
+            "opacity": "0",
+            "transform": "scale3d(0.1, 0.1, 0.1) translate3d(0, 2000px, 0)",
+            "transform-origin": "center bottom",
+            "animation-timing-function": "cubic-bezier(0.175, 0.885, 0.32, 1)"
+          }
+        }
+      ]
+    },
+    {
+      "name": "zoomOutLeft",
+      "nodes": [
+        {
+          "name": "40%",
+          "prop": {
+            "opacity": "1",
+            "transform": "scale3d(0.475, 0.475, 0.475) translate3d(42px, 0, 0)"
+          }
+        },
+        {
+          "name": "to",
+          "prop": {
+            "opacity": "0",
+            "transform": "scale(0.1) translate3d(-2000px, 0, 0)",
+            "transform-origin": "left center"
+          }
+        }
+      ]
+    },
+    {
+      "name": "zoomOutRight",
+      "nodes": [
+        {
+          "name": "40%",
+          "prop": {
+            "opacity": "1",
+            "transform": "scale3d(0.475, 0.475, 0.475) translate3d(-42px, 0, 0)"
+          }
+        },
+        {
+          "name": "to",
+          "prop": {
+            "opacity": "0",
+            "transform": "scale(0.1) translate3d(2000px, 0, 0)",
+            "transform-origin": "right center"
+          }
+        }
+      ]
+    },
+    {
+      "name": "zoomOutUp",
+      "nodes": [
+        {
+          "name": "40%",
+          "prop": {
+            "opacity": "1",
+            "transform": "scale3d(0.475, 0.475, 0.475) translate3d(0, 60px, 0)",
+            "animation-timing-function": "cubic-bezier(0.55, 0.055, 0.675, 0.19)"
+          }
+        },
+        {
+          "name": "to",
+          "prop": {
+            "opacity": "0",
+            "transform": "scale3d(0.1, 0.1, 0.1) translate3d(0, -2000px, 0)",
+            "transform-origin": "center bottom",
+            "animation-timing-function": "cubic-bezier(0.175, 0.885, 0.32, 1)"
+          }
+        }
+      ]
+    },
+    {
+      "name": "slideInDown",
+      "nodes": [
+        {
+          "name": "from",
+          "prop": {
+            "transform": "translate3d(0, -100%, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "name": "to",
+          "prop": {
+            "transform": "translate3d(0, 0, 0)"
+          }
+        }
+      ]
+    },
+    {
+      "name": "slideInLeft",
+      "nodes": [
+        {
+          "name": "from",
+          "prop": {
+            "transform": "translate3d(-100%, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "name": "to",
+          "prop": {
+            "transform": "translate3d(0, 0, 0)"
+          }
+        }
+      ]
+    },
+    {
+      "name": "slideInRight",
+      "nodes": [
+        {
+          "name": "from",
+          "prop": {
+            "transform": "translate3d(100%, 0, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "name": "to",
+          "prop": {
+            "transform": "translate3d(0, 0, 0)"
+          }
+        }
+      ]
+    },
+    {
+      "name": "slideInUp",
+      "nodes": [
+        {
+          "name": "from",
+          "prop": {
+            "transform": "translate3d(0, 100%, 0)",
+            "visibility": "visible"
+          }
+        },
+        {
+          "name": "to",
+          "prop": {
+            "transform": "translate3d(0, 0, 0)"
+          }
+        }
+      ]
+    },
+    {
+      "name": "slideOutDown",
+      "nodes": [
+        {
+          "name": "from",
+          "prop": {
+            "transform": "translate3d(0, 0, 0)"
+          }
+        },
+        {
+          "name": "to",
+          "prop": {
+            "visibility": "hidden",
+            "transform": "translate3d(0, 100%, 0)"
+          }
+        }
+      ]
+    },
+    {
+      "name": "slideOutLeft",
+      "nodes": [
+        {
+          "name": "from",
+          "prop": {
+            "transform": "translate3d(0, 0, 0)"
+          }
+        },
+        {
+          "name": "to",
+          "prop": {
+            "visibility": "hidden",
+            "transform": "translate3d(-100%, 0, 0)"
+          }
+        }
+      ]
+    },
+    {
+      "name": "slideOutRight",
+      "nodes": [
+        {
+          "name": "from",
+          "prop": {
+            "transform": "translate3d(0, 0, 0)"
+          }
+        },
+        {
+          "name": "to",
+          "prop": {
+            "visibility": "hidden",
+            "transform": "translate3d(100%, 0, 0)"
+          }
+        }
+      ]
+    },
+    {
+      "name": "slideOutUp",
+      "nodes": [
+        {
+          "name": "from",
+          "prop": {
+            "transform": "translate3d(0, 0, 0)"
+          }
+        },
+        {
+          "name": "to",
+          "prop": {
+            "visibility": "hidden",
+            "transform": "translate3d(0, -100%, 0)"
+          }
+        }
+      ]
+    }
+  ]
+}
