@@ -20,7 +20,7 @@
     "cssfmt": "^2.1.5",
     "dark-fns": "^1.1.1",
     "mkdirp": "^0.5.1",
-    "postcss": "^7.0.18"
+    "postcss": "^8.2.10"
   },
   "devDependencies": {
     "@logux/eslint-config": "^33.0.0",
